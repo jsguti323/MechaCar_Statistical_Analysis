@@ -52,3 +52,10 @@ PSI across all manufacturing lots is not statistically different from the popula
 * The mean PSI in Lot 3 is statistically significantly different than the overall population mean of 1500 PSI.
 
 ## Study Design: MechaCar vs Competition
+
+In this study, we will compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+* Performance Metrics: MPG, Maintenance Cost, and Horsepower
+* Null Hypothesis: There is not a statistical difference in the performance of a vehicle based on if it's manufcatured by MechaCar or its competiton.
+* We will use an ANOVA test to measure the statistical difference. We are comparing several categorical dependent variables to a single continuous independent variable (manufacturer, {MPG, HP, etc.}) so ANOVA testing is appropriate.
+* Findings: if the p-value in any given ANOVA test is less than the critical value of 0.05, then there would be a signficant difference in that study's metric of interest based on the car manufacturer. 
+
