@@ -23,4 +23,32 @@
 
 ## T-Tests on Suspension Coils
 
+### Null Hypothesis
+PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
+
+#### All Lots vs the Population
+![All_Lots_Ttest](https://user-images.githubusercontent.com/99751636/172924692-dda1aa04-e53d-46f4-9fd4-ae3e45e324da.png)
+
+* All Lots P-Value = 0.06, which is greater than the critical value 0.05
+* We fail to reject the null hypothesis.
+
+#### Lot 1 vs the Population
+![Lot1_Ttest](https://user-images.githubusercontent.com/99751636/172924745-fa00087c-aa25-49bc-bde2-acb0b2c197b3.png)
+
+* Lot 1 P-Value = 1.00, which is greater than the critical value 0.05
+* We fail to reject the null hypothesis.
+
+#### Lot 2 vs the Population
+![Lot2_Test](https://user-images.githubusercontent.com/99751636/172924844-f50e6d11-d0c3-4725-bab5-3b18227df0b6.png)
+
+* Lot 2 P-Value = 0.61, which is greater than the critical value 0.05
+* We fail to reject the null hypothesis.
+
+#### Lot 3 vs the Population
+![Lot3_Ttest](https://user-images.githubusercontent.com/99751636/172924909-cb39e0e0-7118-432f-9fd0-2e8e3dd191a1.png)
+
+* Lot 3 P-Value = 0.06, which is less than the critical value 0.05
+* We reject the null hypothesis
+* The mean PSI in Lot 3 is statistically significantly different than the overall population mean of 1500 PSI.
+
 ## Study Design: MechaCar vs Competition
