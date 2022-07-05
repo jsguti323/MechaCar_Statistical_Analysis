@@ -1,6 +1,7 @@
 # MechaCar Statistical Analysis
 
 ## Overview
+AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. We will review the production data and design a linear model that predicts the mpg of MechaCar prototypes using several variables. Next, we will analyze the weight capacities of multiple suspension coils that were tested to determine if the manufacturing process is consistent across production lots. T-tests will then be performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean. Finally, we will design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
 ## Linear Regression to Predict MPG
 ![summary_mpg_lm](https://user-images.githubusercontent.com/99751636/172273184-78f19d17-dde0-4c7e-8416-8ce1be6cd94a.png)
